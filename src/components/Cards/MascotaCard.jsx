@@ -3,16 +3,17 @@ import dogImage from '../Cards/dog.png';
 import catImage from '../Cards/cat.png';
 import otherImage from '../Cards/other.png';
 import Modal from 'react-modal';
-import { UserContext } from '/src/contexts/user';
+//import { UserContext } from '/src/contexts/user';
+import { UserContext } from '@/contexts/user';
 import { Route, Link, useLocation} from 'wouter';
-import { useMascotas } from '/src/hooks/useMascotas';
+import { useMascotas } from '@/hooks/useMascotas';
 
 // IMPORTAR LAS DIMENSIONES
 
-import { useEspecies } from '/src/hooks/useEspecies';
-import { useRazas } from '/src/hooks/useRazas';
-import { useSexos } from '/src/hooks/useSexos';
-import { useCastrado} from '/src/hooks/useCastrado';
+import { useEspecies } from '@/hooks/useEspecies';
+import { useRazas } from '@/hooks/useRazas';
+import { useSexos } from '@/hooks/useSexos';
+import { useCastrado} from '@/hooks/useCastrado';
 
 
 
