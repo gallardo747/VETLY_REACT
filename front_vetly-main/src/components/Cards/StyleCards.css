@@ -1,0 +1,24 @@
+.modal-content-CardVete {
+    display: flex;
+  }
+  
+  .left-column-CardVete {
+    flex: 1;
+  }
+  
+  .right-column-CardVete {
+    flex: 1;
+    
+  }
+  .bold-text {
+    font-weight: bold;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  /* StyleCards.css */
+.selected-card {
+  border: 2px solid blue; /* Establece el color de borde azul y el grosor que desees */
+}

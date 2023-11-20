@@ -1,0 +1,110 @@
+.sortable-header:hover {
+  cursor: pointer;
+}
+
+.sortable-header i {
+  margin-left: 5px; /* Espacio entre el texto y el icono */
+}
+
+.pagination-container {
+  font-size: 14px; /* Tamaño de fuente */
+  color: blue; /* Color del texto */
+  text-align: center; /* Centrar el texto */
+  margin-top: 10px; /* Espacio superior */
+}
+
+.pagination-container ul {
+  list-style: none; /* Elimina los puntos de la lista */
+  display: flex; /* Hace que los elementos de la lista sean flexibles */
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.pagination-container li {
+  margin: 0 10px; /* Espacio entre los elementos <<, número de página y >> */
+}
+
+.pagination-container a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+.pagination-container a:hover {
+  text-decoration: underline; /* Subraya los enlaces al pasar el cursor sobre ellos */
+}
+
+.scaled-calendar {
+  transform: scale(0.8); /* Reduce el tamaño al 90% (ajusta el valor según tus necesidades) */
+}
+
+.selected-day {
+  background-color: #4CAF50; /* Color verde para el fondo */
+  border-radius: 50%; /* Esto redondeará el fondo del día */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* En tu archivo CSS (por ejemplo, HomePage.css) */
+.custom-square {
+  width: 350px; /* Establece el ancho deseado */
+  height: 150px; /* Define la altura deseada (la mitad del ancho) */
+  border: 1px solid #ccc; /* Añade el borde gris */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.KPIblue-text {
+  color: blue;
+  font-size: 40px;
+}
+
+.KPItitle-text {
+  font-weight: bold;
+  color: black;
+  font-size: 14px; /* Tamaño de fuente diferente si lo deseas */
+  /* Otros estilos para el título aquí */
+}
+
+.KPIcentered {
+  text-align: center; /* Centro horizontalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centro verticalmente */
+}
+
+.tarifa-column {
+  font-weight: bold;
+}
+
+.tarifa-value {
+  color: blue;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+
+/* styles/grillas.css */
+.form-switch .form-check-input:checked + .form-check-label::before {
+  transform: translateX(20px);
+}
+
+.form-switch .form-check-input:checked + .form-check-label::after {
+  transform: translateX(50px);
+}
+
+.form-switch .form-check-label::before {
+  width: 40px; /* Ajusta el tamaño del control de alternancia */
+}
+
+.form-switch .form-check-label::after {
+  width: 20px; /* Ajusta el tamaño del control de alternancia */
+}
+
+.form-switch .form-check-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

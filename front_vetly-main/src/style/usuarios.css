@@ -1,0 +1,20 @@
+.activo {
+    color: blue;
+    font-weight: bold;
+    background-color: black;
+    padding: 3px 8px; 
+    border-radius: 4px; 
+  }
+  
+  .inactivo {
+    color: red;
+    font-weight: bold;
+    background-color: black;
+    padding: 3px 8px; 
+    border-radius: 4px; 
+  }
+
+  .small-font {
+    font-size: 10px; /* Tamaño de fuente de 9px */
+  }
+  

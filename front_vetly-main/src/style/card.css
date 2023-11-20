@@ -1,0 +1,30 @@
+.e-card {
+    background-color: aqua;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.e-card .e-card-header {
+    font-family: cursive;
+    font-style: italic;
+}
+
+.e-card .e-card-content {
+    font-size: 20px;
+    color: gray;
+    line-height: initial;
+    font-weight: normal;
+}
+
+.e-card .e-card-separator {
+    padding-bottom: 30px;
+ }
+
+ .e-card .e-card-actions .e-card-btn  {
+    padding-left: 20px;
+    background-color: wheat;
+}
+
+.bold-text {
+    font-weight: bold;
+  }

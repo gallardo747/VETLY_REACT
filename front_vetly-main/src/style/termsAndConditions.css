@@ -1,0 +1,30 @@
+/* Establecer el tamaño de la letra en 11px */
+bodyTerms {
+    font-size: 11px;
+  }
+  
+  .w-fullTerms {
+    font-size: 11px;
+    text-align: justify;
+    color: grey;
+    max-width: 600px; /* Ajusta el valor a tu preferencia */
+    margin: 0 auto; /* Centrar el contenido en la página */
+  }
+  
+  .w-fullTerms h2 {
+    color: #0a0000;
+    font-size: 14px;
+    font-weight: bold; /* Agregar negrita */
+  }
+  
+  .w-fullTerms p {
+    margin-bottom: 10px; /* Agrega el margen de separación deseado (10px en este ejemplo) */
+  }
+  
+  .w-fullTerms span.highlighted-text {
+    color: blue;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  
