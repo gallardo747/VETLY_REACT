@@ -1,9 +1,9 @@
 import {React, useState, useEffect, useContext}  from 'react';
 import ProfesionalImage from '../Cards/profesional.png';
 import Modal from 'react-modal';
-import { UserContext } from '/src/contexts/user';
+import { UserContext } from '@/contexts/user';
 import { Route, Link, useLocation} from 'wouter';
-import { useProfesionales } from '/src/hooks/useProfesionales';
+import { useProfesionales } from '@/hooks/useProfesionales';
 
 
 const PerfilProfesionalCard = ({ id, nombre, apellido, dni, matricula, telefono, fechaCreacion }) => {

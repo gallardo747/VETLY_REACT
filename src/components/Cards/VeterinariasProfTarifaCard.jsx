@@ -1,9 +1,9 @@
 import {React, useState, useEffect, useContext}  from 'react';
 import profImage from '../Cards/profesional.png';
 import Modal from 'react-modal';
-import { useTarifa } from '/src/hooks/useTarifa';
+import { useTarifa } from '@/hooks/useTarifa';
 import { Route, Link, useLocation} from 'wouter';
-import { UserContext } from '/src/contexts/user';
+import { UserContext } from '@/contexts/user';
 import { RegistrarTarifa } from '../../services/tarifas';
 import './StyleCards.css'
 

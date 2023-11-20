@@ -2,14 +2,14 @@ import {React, useState, useEffect, useContext}  from 'react';
 import profImage from '../Cards/profesional.png';
 import Modal from 'react-modal';
 import { Route, Link, useLocation} from 'wouter';
-import { UserContext } from '/src/contexts/user';
+import { UserContext } from '@/contexts/user';
 import './StyleCards.css'
-import { useSolicitudesProfesionalesAAprobar } from '/src/hooks/useSolicitudesProfesionalesAAprobar';
+import { useSolicitudesProfesionalesAAprobar } from '@/hooks/useSolicitudesProfesionalesAAprobar';
 import { MapContainer, TileLayer, Marker, Popup, useMapEvents  } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { useVP } from '/src/hooks/useVP';
+import { useVP } from '@/hooks/useVP';
 import ProfesionalesCard from './ProfesionalesCard';
 
 //MULTIIDIOMA-------------------------------------------------------------------------------

@@ -1,18 +1,18 @@
 import {React, useState, useEffect, useContext}  from 'react';
 import clienteImage from '../Cards/clinica.png';
 import Modal from 'react-modal';
-import { UserContext } from '/src/contexts/user';
+import { UserContext } from '@/contexts/user';
 import { Route, Link, useLocation} from 'wouter';
-import { useVeterinarias } from '/src/hooks/useVeterinarias';
+import { useVeterinarias } from '@/hooks/useVeterinarias';
 import { MapContainer, TileLayer, Marker, Popup, useMapEvents } from 'react-leaflet';
 import cardcss from './StyleCards.css'
 //import L from 'leaflet';
 
 // IMPORTAR LAS DIMENSIONES
 
-import { usePaises } from '/src/hooks/usePaises';
-import { useProvincias } from '/src/hooks/useProvincias';
-import { useCiudades } from '/src/hooks/useCiudades';
+import { usePaises } from '@/hooks/usePaises';
+import { useProvincias } from '@/hooks/useProvincias';
+import { useCiudades } from '@/hooks/useCiudades';
 
 const PerfilVeterinariaCard = ({ id, razonSocial, calle, numero, piso, cp, idPais, idProvincia, idCiudad, cuit, telefono, fechaCreacion, latitud, longitud }) => {
 

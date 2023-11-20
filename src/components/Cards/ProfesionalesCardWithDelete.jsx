@@ -3,9 +3,9 @@ import profImage from '../Cards/profesional.png';
 import Modal from 'react-modal';
 import 'bootstrap/dist/css/bootstrap.min.css';// Importar los estilos de Bootstrap
 import { Route, Link, useLocation} from 'wouter';
-import { UserContext } from '/src/contexts/user';
-import { useVP } from '/src/hooks/useVP';
-import { useSolicitudesProfesionalesAAprobar } from '/src/hooks/useSolicitudesProfesionalesAAprobar';
+import { UserContext } from '@/contexts/user';
+import { useVP } from '@/hooks/useVP';
+import { useSolicitudesProfesionalesAAprobar } from '@/hooks/useSolicitudesProfesionalesAAprobar';
 
 //MULTIIDIOMA-------------------------------------------------------------------------------
 import { FormattedMessage } from 'react-intl';  
